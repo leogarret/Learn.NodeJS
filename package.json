@@ -1,7 +1,25 @@
 {
-  "name": "LearnNodeJs",
+  "name": "learn.nodejs",
   "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leogarret/Learn.NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leogarret/Learn.NodeJS/issues"
+  },
+  "homepage": "https://github.com/leogarret/Learn.NodeJS#readme"
 }
